@@ -1,0 +1,6 @@
+---
+# vars file for ansible-role-kubernetes-nginx-ingress
+
+# Namespace to use for install of nginx
+# This needs to match the namespace used for the kube-promtheus deployment
+kube_namespace: monitoring

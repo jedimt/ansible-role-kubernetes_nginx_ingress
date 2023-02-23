@@ -1,0 +1,21 @@
+galaxy_info:
+  author: jedimt
+  role_name: kubernetes_nginx_ingress
+  description: Install nginx ingress on a K8s cluster
+
+  license: MIT
+
+  min_ansible_version: "5"
+
+  platforms:
+    - name: Ubuntu
+      versions:
+        - focal
+        - xenial
+        - jammy
+
+  galaxy_tags:
+    - prometheus
+    - kubeprometheus
+    - kubernetes
+    - monitoring
