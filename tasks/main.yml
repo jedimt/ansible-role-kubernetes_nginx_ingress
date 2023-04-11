@@ -1,5 +1,5 @@
 ---
-# tasks file for ansible-role-kubernetes-nginx-ingress
+# tasks file for jedimt.kubernetes_nginx_ingress
 
 # Create the namespace
 - name: Test for existing namespace {{ kube_namespace }}

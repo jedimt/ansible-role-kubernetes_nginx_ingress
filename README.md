@@ -27,13 +27,13 @@ Example Playbook
     # Install Nginx ingress controller
     # ===========================================================================
     - name: Install nginx ingress controller
-    hosts: k8s_master
-    become: true
-    gather_facts: false
-    tags: play_nginx
+      hosts: k8s_master
+      become: true
+      gather_facts: false
+      tags: play_nginx
 
-    roles:
-        - { role: ansible-role-kubernetes-nginx-ingress, kube_namespace: monitoring }
+      roles:
+          - { role: jedimt.kubernetes_nginx_ingress, kube_namespace: monitoring }
 
 License
 -------
